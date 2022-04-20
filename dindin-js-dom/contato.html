@@ -26,7 +26,7 @@
     </style>
   </head>
 
-  <body>
+  <body onload="onLoadContato()">
     <header>
       <div id="cabecalho">
         <div id="logo_cabecalho">
@@ -59,7 +59,7 @@
           <form action="contato.html" method="post">
             <input type="text" required placeholder="nome" /><br />
             <input type="email" required placeholder="e-mail" />
-            <textarea>sua mensagem</textarea> <br />
+            <textarea placeholder="mensagem"></textarea> <br />
             <button id="enviar">Enviar</button>
           </form>
         </div>
