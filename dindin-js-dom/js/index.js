@@ -105,7 +105,7 @@ const onLoadContato = () => {
   botaoEnviar.style.width = "auto";
 
   // 5
-  fetch("index.html")
+  fetch("index.html") // promises
     .then((result) => result.text())
     .then((data) => new DOMParser().parseFromString(data, "text/html"))
     .then((htmlHome) => {
